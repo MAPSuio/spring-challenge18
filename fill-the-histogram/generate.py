@@ -28,5 +28,6 @@ def slowsolve(hist):
 
 if __name__ == "__main__":
     test = histstr(generatetest(2000))
+    print slowsolve(test)
     with open("histogram", "w") as f:
         f.write(test)
