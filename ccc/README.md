@@ -4,7 +4,7 @@
 
 The MAPS-team recently decided to start their own bank.
 As a service to their customers, the Bank of MAPS will issue credit cards. 
-Each credit card will have a unique n-digit card-number. Furthermore, each card-number will be unique "up to one digit-erros". This implies that if a customer enters their card-number with one digit wrong, the money will not be transferred to another account, because the entered card-number will not be in use.
+Each credit card will have a unique n-digit card-number. Furthermore, each card-number will be unique "up to one digit-errors". This implies that if a customer enters their card-number with one digit wrong, the money will not be transferred to another account, because the entered card-number will not be in use.
 Also, the Bank of MAPS will not create card-numbers that begin with a 0.
 
 Example:(n=2)  
