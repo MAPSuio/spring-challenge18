@@ -1,0 +1,5 @@
+# Area
+
+Your friend is at the beach, playing with a stick in the sand, and she has marked a unit square. That is, a square where each side is 1 meter. Thus a unit square has an area of 1. Inside of the square, your friend has been drawing the outline of a weird squiggly shape. You're a mathematician, so you decide to treat the square as a coordinate system. She points and says, this way is up, so you know where the origin is (where `x` and `y` are both zero). Now, you want to find out what the area of the weird squiggly shape is. You ask your friend, but she doesn't know. However, if you give her the `x` coordinate of a point inside the square, she quickly blurts out the `y` coordinate. You rapidly scribble down these measurements, which are provided in [this](./coordinates.txt) file. Each line in the file corresponds to a measurement, and each line has two numbers: The `x` coordinate and the `y` coordinate, respectively.
+
+What is the area under the curve of the function?
