@@ -9,7 +9,7 @@ another through their huge road network. You, an expensive consultant, have
 been hired to deal with this problem. 
 
 They have managed to compile a list of every single road in the country, all of
-which go between exactly two cities. The list as been written to
+which go between exactly two cities. The list has been written to
 [a file](./input), where each city has been given an index in the range `[0,n)`.
 The file begins with a line `n m`, where `n` is the number of cities in
 Mapsistan, and `m` is the number of roads. Afterwards, there are `m` lines on
