@@ -33,7 +33,7 @@ def union(i, j):
         parent[jj] = ii
     else:
         parent[ii] = jj
-        parent[j] -= 1 # depth increased by 1
+        parent[jj] -= 1 # depth increased by 1
 
 for _ in range(m):
     i, j = map(int, input().split())
