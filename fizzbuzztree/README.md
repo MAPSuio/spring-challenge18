@@ -1,6 +1,6 @@
 # Fizz Buzz, tree edition
 
-<img src="example-figure.png" align="right" width="250px" style="margin: 10px;">
+<img src="example-figure.png" align="right" width="270px" style="margin: 10px;">
 
 Fizz Buzz is a child's game turned into an infamous programming problem, which
 is being used by all the top companies to find the very best candidates in a job
@@ -11,8 +11,7 @@ counting up to 20 would produce the following sequence, where "Fizz" occurs
 6 times and "Buzz" occurs 4 times:
 
 ```
-1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz, 16,
-17, Fizz, 19, Buzz
+1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz, 16, 17, Fizz, 19, Buzz
 ```
 
 We have developed a new amazing version of FizzBuzz, which surely will help
