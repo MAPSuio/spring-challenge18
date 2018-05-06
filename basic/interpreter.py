@@ -10,7 +10,6 @@ def basic_eval(exp):
 lineno = 1
 while True:
     line = program[lineno - 1]
-
     tokens = re.findall(r"[\w]+|[^\s\w]", line)
     keyword = tokens[0]
 
@@ -18,9 +17,6 @@ while True:
         var_name = tokens[1]
         exp = tokens[3:]
         var_values[var_name] = basic_eval(exp)
-
-    elif keyword == "REM":
-        None
 
     elif keyword == "JUMP":
         lineno = int(tokens[1])
