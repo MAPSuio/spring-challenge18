@@ -1,0 +1,21 @@
+LET k = 0
+LET x = 10
+LET y = x
+LET m = 27
+CONDJUMP 9 x > (2 * y + 1) + 1123
+LET z = 3 + 2
+LET x = x + z * 2 - 1
+JUMP 4
+LET k = k + 1
+CONDJUMP 2 k < 11
+LET n = m + x + y - 12
+CONDJUMP 17 n + 59 < 2 * x + k - x + 41
+LET o = 56 * (3 + x)
+LET w = 1230 - (k * m * 2) - 190
+LET x = o + 4 * w - 1013
+CONDJUMP 20 n + 59 > 2 * x + k - x + 41
+LET o = 4 * (x + x - y) * k - 123
+LET t = 1 + 1 + 1 + 1 - 5
+LET x = o + o - t + 3 * k
+PRINT x
+END

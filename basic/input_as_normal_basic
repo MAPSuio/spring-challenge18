@@ -1,0 +1,21 @@
+1 LET k = 0
+2 LET x = 10
+3 LET y = x
+4 LET m = 27
+5 IF x > (2 * y + 1) + 1123 THEN GOTO 9
+6 LET z = 3 + 2
+7 LET x = x + z * 2 - 1
+8 GOTO 4
+9 LET k = k + 1
+10 IF k < 11 THEN GOTO 2
+11 LET n = m + x + y - 12
+12 IF n + 59 < 2 * x + k - x + 41 THEN GOTO 17
+13 LET o = 56 * (3 + x)
+14 LET w = 1230 - (k * m * 2) - 190
+15 LET x = o + 4 * w - 1013
+16 IF n + 59 > 2 * x + k - x + 41 THEN GOTO 20
+17 LET o = 4 * (x + x - y) * k - 123
+18 LET t = 1 + 1 + 1 + 1 - 5
+19 LET x = o + o - t + 3 * k
+20 PRINT x
+21 END
