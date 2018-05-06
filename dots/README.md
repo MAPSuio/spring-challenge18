@@ -84,7 +84,7 @@ None of the images satisfies both property **A** and **B**. All of the following
     </td>
     <td>
     <div style="position: relative;">
-      <img src="horizontals/0098.png" style="width: 98%; max-width: 250px;" border="1px">
+      <img src="horizontals/0093.png" style="width: 98%; max-width: 250px;" border="1px">
       <div style="position: absolute; top: 8px; left: 16px;"> 4 </div>
     </div>
     </td>
@@ -98,7 +98,7 @@ None of the images satisfies both property **A** and **B**. All of the following
     </td>
     <td>
     <div style="position: relative;">
-      <img src="horizontals/0098.png" style="width: 98%; max-width: 250px;" border="1px">
+      <img src="horizontals/0096.png" style="width: 98%; max-width: 250px;" border="1px">
       <div style="position: absolute; top: 8px; left: 16px;"> 6 </div>
     </div>
     </td>
