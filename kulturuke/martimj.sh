@@ -1,3 +1,3 @@
 #!/bin/bash
 
-grep kulturuke input | wc
+grep "kulturuke" input | wc -w
