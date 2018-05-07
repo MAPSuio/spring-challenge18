@@ -4,10 +4,10 @@
 
 Professor C. Ompsci is about to move into his new apartment, but needs somewhere
 to place all his precious books about computer science. He has taken a liking
-to (this shelf from IKEA)[https://www.ikea.com/no/no/catalog/products/S39007500/],
+to [this shelf from IKEA](https://www.ikea.com/no/no/catalog/products/S39007500/),
 but isn't quite sure how many of them he will need.
 
-He has given you (this file)[./input], which contains a list of each book's
+He has given you [this file](./input), which contains a list of each book's
 thickness as an integer. Professor Ompsci has assured you that none of his
 books are too large to fit on a single shelf. Moreover, he plans to put all the
 books and shelves in a particular order. You must therefore assume that if book
