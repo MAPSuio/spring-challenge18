@@ -10,10 +10,10 @@ but isn't quite sure how many of them he will need.
 He has given you [this file](./input), which contains a list of each book's
 thickness in centimetres as an integer. Professor Ompsci has assured you that none of his
 books are too large to fit on a single shelf. Moreover, he plans to put all the
-books and shelves in a particular order. You must therefore assume that if book
-`X` comes before book `Y` in the file, one of the following must hold:
+books and shelves in a particular order given by the file. You must therefore assume that if book
+`X` comes right before book `Y` in the file, one of the following must hold:
 
-1. `X` is the book before `Y` on the same shelf.
+1. `X` is the book right before `Y` on the same shelf.
 2. `X` is the last book on a shelf, and `Y` is the first book on the next shelf.
 
 Can you help the professor calculate how many shelves he will need, if he
