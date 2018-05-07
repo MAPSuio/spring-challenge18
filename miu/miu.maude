@@ -1,0 +1,17 @@
+mod MIU is
+    pr NAT .
+    sorts MIU Depth .
+
+    ops M I U E : -> MIU .
+    op [_|_] : Nat MIU -> MIU .
+    op __ : MIU MIU -> MIU [assoc id: E] .
+
+
+    vars d : Nat .
+    vars X Y : MIU .
+
+    rl [axiom1] : [d | X I]       => [s d | X I U] .
+    rl [axiom2] : [d | M X]       => [s d | M X X] .
+    rl [axiom3] : [d | X I I I Y] => [s d | X U Y] .
+    rl [axiom4] : [d | X U U Y]   => [s d | X Y] .
+endm
