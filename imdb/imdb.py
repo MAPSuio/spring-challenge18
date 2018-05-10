@@ -1,7 +1,7 @@
 from datetime import date, timedelta
 import csv
 
-competitionday = date(2018, 5, 7)
+competitionday = date(2018, 5, 7) + timedelta(hours=17)
 minutes = 0
 notmissing = 0
 missing = 0
@@ -17,6 +17,6 @@ with open('title.basics.tsv') as f:
             notmissing += 1
             minutes += int(runtime)
 
-minutes += missing * (minutes/notmissing)
+minutes += missing * (float(minutes)/notmissing)
 
 print competitionday + timedelta(minutes = minutes)
